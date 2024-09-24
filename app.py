@@ -7,7 +7,11 @@ import plotly.express as px
 import streamlit as st
 
 car_data = pd.read_csv('vehicles_us.csv')
+
 st.header("Dashboard de Visualização de Dados")
+
+st.write(car_data)
+
 hist_button = st.button('Criar histograma')
 
 if hist_button:
