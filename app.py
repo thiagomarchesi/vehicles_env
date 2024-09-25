@@ -13,7 +13,7 @@ hist_button = st.button
 if hist_button:
     st.write('Criando um gráfico histograma para o conjunto de dados')
     fig = px.histogram(car_data, x="odometer")
-    fig.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True)
 
 scatter_button = st.button('Criar gráfico de dispersão')
 
