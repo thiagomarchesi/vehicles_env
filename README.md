@@ -8,4 +8,8 @@ O Dashboard tem como objetivo fornecer uma melhor visualização ao relacionar o
 
 O aplicativo Web é intuitivo e fácil de usar, contendo um data frame como consulta e análise geral dos dados. Em seguida, foi disponibilizado amostras de histograma e dispersão para melhor visualização dos dados gerais. Ao clicar o botão, o server irá gerar os gráficos, sendo possível alternar ou escolher aquele que lhe agrada mais.
 
+CORREÇÃO:
+Boa tarde Rafael, muito prazer!
+Seguem as correções referente ao gráfico histograma, com um porém, as colunas type e prices não estavam criando um histograma e sim, barras. Portanto, utilizei o odometer que funcionou sem algum problema. Poderia confirmar, por favor?
+
 https://vehicles-data-shnr.onrender.com/
