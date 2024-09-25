@@ -8,14 +8,11 @@ st.header("Dashboard de Visualização de Dados")
 
 st.write(car_data)
 
-hist_button = st.button('Criar histograma')
+hist_button = st.button
 
 if hist_button:
-    
-    st.write('Criando um histograma para o conjunto de dados de anúncios de vendas de carros')
-      
-    fig = px.histogram(car_data, x="type", y="price", ybins=[0, 10000, 20000, 30000, 40000, 50000, 100000], opacity=0.5)
-      
+    st.write
+    fig = px.histogram(car_data, x="type", color="type", nbins=7)
     st.plotly_chart(fig, use_container_width=True)
 
 scatter_button = st.button('Criar gráfico de dispersão')
