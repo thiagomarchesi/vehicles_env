@@ -14,8 +14,7 @@ if hist_button:
     
     st.write('Criando um histograma para o conjunto de dados de anúncios de vendas de carros')
       
-    fig = px.histogram(car_data, x="type", nbins=20, opacity=0.5)
-    fig = px.histogram(car_data, y="price", nbins=20, opacity=0.5)
+    fig = px.histogram(car_data, y="price", nbins=5, opacity=0.5)
     
     st.plotly_chart(fig, use_container_width=True)
 
