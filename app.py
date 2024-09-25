@@ -11,7 +11,7 @@ st.write(car_data)
 hist_button = st.button
 
 if hist_button:
-    st.write
+    st.write('Criando um gráfico histograma para o conjunto de dados')
     fig = px.histogram(car_data, x="type", color="type", nbins=7)
     st.plotly_chart(fig, use_container_width=True)
 
